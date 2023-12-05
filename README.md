@@ -6,13 +6,13 @@ Helm chart for easily manage gitops service
 Add this repository to Helm.
 
 ```
-helm repo add k8app https://d7561985.github.io/k8app
+helm repo add k8apptmp https://skozlovsky.github.io/tmp-k8s-nats
 ```
 
 Install an example.
 
 ```
-helm install app k8app/app
+helm install app k8apptmp/app
 ```
 
 ## 
