@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  nats:
+  - apiVersion: v2
+    appVersion: 2.10.5
+    created: "2023-12-05T18:43:37.306965206Z"
+    dependencies:
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 1.1.5
+    - name: nack
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.25.0
+    - name: surveyor
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.16.4
+    description: A Helm chart for Kubernetes
+    digest: cb47e06bb88b70dab48db8000fee0df8d3d2b8c73f49c80e434f932caa4dcdb7
+    name: nats
+    type: application
+    urls:
+    - https://github.com/SKozlovsky/tmp-k8s-nats/releases/download/nats-0.1.9/nats-0.1.9.tgz
+    version: 0.1.9
+generated: "2023-12-05T18:43:37.306977449Z"
