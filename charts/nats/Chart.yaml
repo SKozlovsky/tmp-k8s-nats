@@ -32,5 +32,5 @@ dependencies:
     repository: https://nats-io.github.io/k8s/helm/charts/
   - name: surveyor
     version: 0.16.4
-    repository: file://charts/surveyor
-    #repository: https://nats-io.github.io/k8s/helm/charts/
+#    repository: file://charts/surveyor
+    repository: https://nats-io.github.io/k8s/helm/charts/
